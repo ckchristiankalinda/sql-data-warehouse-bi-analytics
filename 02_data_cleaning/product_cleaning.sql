@@ -1,5 +1,5 @@
 /*====================================================================
-CRM PRODUCT CLEANING (SILVER LAYER)
+CRM PRODUCT CLEANING 
 
 Purpose:
 - Clean and standardize product data
