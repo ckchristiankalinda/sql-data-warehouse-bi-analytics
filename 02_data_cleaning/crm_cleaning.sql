@@ -1,5 +1,5 @@
 /*====================================================================
-CRM CUSTOMER CLEANING (SILVER LAYER)
+CRM CUSTOMER CLEANING 
 
 Purpose:
 - Clean customer data from raw Bronze layer
