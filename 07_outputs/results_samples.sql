@@ -19,17 +19,10 @@ FROM gold.fact_sales;
 
 /* Sample: Revenue by Product */
 SELECT 
-    product_id,
+    product_key,
     SUM(sales_amount) AS revenue
 FROM gold.fact_sales
-GROUP BY product_id
+GROUP BY product_key
 ORDER BY revenue DESC;
 
 
-/* Sample: Sales by Country (if exists) */
-SELECT 
-    country,
-    SUM(sales_amount) AS revenue
-FROM gold.fact_sales
-GROUP BY country
-ORDER BY revenue DESC;
